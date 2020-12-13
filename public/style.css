@@ -185,7 +185,16 @@ body{
     visibility: hidden;
     transition: all 0.3s linear;
 }
-
+/* ---------------error css --------------- */
+.error-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-img img{
+    width: 40%;
+    height: 60%;
+}
 /* --------------footer css ------------ */
 
 footer{
@@ -267,5 +276,9 @@ footer p{
 .main_layer .middle_layer .fa{
     font-size: 4rem;
     font-weight: 900;
+}
+.error-img img{
+    width: 100%;
+    height: 100%;
 }
 }
